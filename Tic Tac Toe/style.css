@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game-intro {
+    font-family: 'Arvo', cursive;
+    font-size: 10vmin;
+}
+
+.win {
+    font-family: 'Arvo', cursive;
+    font-size: 8vmin;
+}
+
+body {
+    background-color: #F0ECE5;
+    text-align: center;
+    font-family: 'Arvo', cursive;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #222537;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vmin;
+}
+
+.hide {
+    display: none;
+    /* to hide the winner info tag */
+}
+
+.player-name{
+    color: rgb(255, 119, 0);
+    font-size: 8vmin;
+    margin: 0vmin;
+}
+
+.dash-board {
+    height: 70vmin;
+    width: 170vmin;
+    margin-top: 3vmin;
+    background-color:#B6BBC4;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.border-box {
+    height: 48vmin;
+    width: 48vmin;
+    margin: 2vmin;
+    background-color: #31304D;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-box {
+    background-color: #F0ECE5;
+    height: 45vmin;
+    width: 45vmin;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+
+    outline: none;
+    border: 0.8vmin solid #31304D;
+    font-size: 5vmin;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #e20c0c;
+    box-shadow: 0 0 3vmin #DBEDF3;
+    text-shadow: 0.3vmin 0 #DBEDF3;
+    border-radius: 2vmin;
+    display: inline-block;
+    width: 10vmin;
+    height: 10vmin;
+    text-align: center;
+    margin: 2vmin;
+    background-color: white;
+}
+
+.player_X {
+    outline: none;
+    border: 0.8vmin solid #31304D;
+    font-size: 10vmin;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #ff0000;
+    box-shadow: 0 0 3vmin #DBEDF3;
+    text-shadow: 0.3vmin 0 #DBEDF3;
+    border-radius: 2vmin;
+    display: inline-block;
+    width: 20vmin;
+    height: 20vmin;
+    text-align: center;
+    margin: 2vmin;
+    background-color: white;
+}
+
+.player_O {
+    outline: none;
+    border: 0.8vmin solid #31304D;
+    font-size: 10vmin;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #0000ff;
+    box-shadow: 0 0 3vmin #DBEDF3;
+    text-shadow: 0.3vmin 0 #DBEDF3;
+    border-radius: 2vmin;
+    display: inline-block;
+    width: 20vmin;
+    height: 20vmin;
+    text-align: center;
+    margin: 2vmin;
+    background-color: white;
+}
+
+.turn {
+    box-shadow: 0 0 3vmin #99d0a0;
+    border: 0.8vmin solid #00ff22;
+}
+
+#new-game {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #161A30;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#reset-game {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #161A30;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}

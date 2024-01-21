@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe Game</title>
+</head>
+
+<body>
+
+    <!-- Message container to display winner message -->
+    <div class="msg-container">
+        <h1 class = "game-intro">Welcome to Tic Tac Toe!</h1>
+        <h1 class="win hide">Winner</h1>
+
+        <!-- button to start new game -->
+        <button id="new-game">New Game</button>
+    </div>
+
+    <h1 class = "game-intro">Welcome to Tic Tac Toe!</h1>
+    <div class="dash-board">
+
+        <!-- box for player one information -->
+        <div class="border-box">
+            <div class="play-box">
+                <h2 class = "player-name">Player 1</h2>
+                <button class="player_O turn">O</button>
+            </div>
+        </div>
+
+        <!-- game play ground -->
+        <div class="border-box">
+            <div class="play-box">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+
+            </div>
+        </div>
+
+        <!-- box for player information -->
+        <div class="border-box player">
+            <div class="play-box">
+                <h2 class = "player-name">Player 2</h2>
+                <button class="player_X">X</button>
+            </div>
+        </div>
+
+        <!-- button to reset the game with same players -->
+        <button id="reset-game" >Reset Game</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
