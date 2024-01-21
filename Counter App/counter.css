@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(160, 0, 255);
+    font-size: 50px;
+}
+
+.counter {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.count {
+    font-size: 150px;
+    color: rgb(255, 145, 0);
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 75, 255);
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    margin: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
